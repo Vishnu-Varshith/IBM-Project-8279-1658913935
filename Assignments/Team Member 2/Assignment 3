@@ -13,7 +13,7 @@ while True:
 //Code for Traffic Light System//
 from gpiozero import Button, TrafficLights, Buzzer
 from time import sleep
-buzzer = Buzzer(15)
+buzzer = Buzzer(15) 
 button = Button(21)
 lights = TrafficLights(25, 8, 7)
 while True:
